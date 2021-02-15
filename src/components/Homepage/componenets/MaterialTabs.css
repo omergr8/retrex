@@ -1,0 +1,40 @@
+.item-two-container {
+  text-align: center;
+}
+
+.item-two-container p,
+h1 {
+  line-height: 11px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+}
+
+.item-two-container h1 {
+  font-size: 35px;
+}
+
+.item-two-container h2 {
+  font-weight: 500;
+  line-height: 1px;
+}
+
+.wallet-address-text-field {
+  border-radius: 10px;
+  width: 100%;
+  height: 30px;
+}
+
+.generating-rext {
+  font-size: 10px;
+  text-align: left;
+}
+.MuiButton-containedPrimary {
+  border-radius: 12px !important;
+}

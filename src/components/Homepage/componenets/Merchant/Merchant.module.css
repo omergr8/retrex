@@ -1,0 +1,41 @@
+.border {
+  border: 10px solid white;
+}
+.merchantCard {
+  border: 2px solid #4c2872;
+}
+
+.merchantCardHeader {
+  background-color: #4c2872;
+  height: 55px;
+  padding: 15px;
+  text-align: center;
+}
+
+.merchantCardBody {
+  padding: 35px 15px;
+  text-align: center;
+}
+
+.merchantCardBodySpan {
+  border: 1px solid white;
+  padding: 10px;
+  font-size: 15px;
+}
+.availableRext {
+  background-color: #4c2872;
+  padding: 5px;
+  vertical-align: middle;
+}
+.availableRext Button {
+  float: right;
+  height: 30px;
+
+  width: 80px;
+}
+.buyButton {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 8px 0;
+  font-size: 12px;
+}

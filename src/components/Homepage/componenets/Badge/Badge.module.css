@@ -1,0 +1,24 @@
+.border {
+  border: 10px solid white;
+  max-width: 300px;
+  margin: auto;
+}
+.wrapper {
+  display: inline-flex;
+  font-size: 14px;
+  margin-top: 15px;
+}
+.firstGrid {
+  margin-bottom: 0px;
+}
+.span {
+  width: 150px !important;
+  font-size: 10px;
+  font-weight: 500;
+  margin-top: 7px;
+}
+.read-more-button {
+  background-color: red !important;
+  color: red !important;
+  border: 50px solid red;
+}

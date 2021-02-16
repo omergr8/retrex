@@ -1,0 +1,17 @@
+.MuiAppBar-positionStatic,
+.MuiAppBar-colorDefault,
+.MuiAppBar-root {
+  color: black !important;
+  background-color: black !important;
+}
+
+.lineWC {
+  height: 2px;
+  border-width: 0;
+  width: 1635px;
+  color: rgb(95, 95, 95);
+  background-color: rgb(100, 100, 100);
+}
+.headerLogo {
+  padding-top: 10px;
+}

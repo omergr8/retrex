@@ -208,8 +208,8 @@ const Homepage = () => {
             <br />
 
             <div>
-              <h2>VIEW RATE RECOMENDATIONS</h2>
-              <hr />
+              <h2 style={{fontSize:'15px'}}>VIEW RATE RECOMENDATIONS</h2>
+              <hr style={{width:'280px',marginRight:'100px'}} />
               <br />
               <img src={thumbnail} width="280px" height="160px" alt="" />
               <br />

@@ -112,7 +112,7 @@ export default function MaterialTabs() {
         </TabPanel>
         <TabPanel value={value} index={1} dir={theme.direction}>
           <div className="item-two-container">
-            <p><small>WATCH TIME</small></p>
+            <p><small style={{fontSize:'10px'}}>WATCH TIME</small></p>
             <h1>12:45s</h1>
             <BorderLinearProgress variant="determinate" value={70} />
             <p className="generating-rext">Generating REXT ...</p>

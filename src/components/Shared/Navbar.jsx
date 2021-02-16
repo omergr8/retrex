@@ -11,12 +11,14 @@ import Menu from "@material-ui/core/Menu";
 import MenuIcon from "@material-ui/icons/Menu";
 import SearchIcon from "@material-ui/icons/Search";
 import AccountCircle from "@material-ui/icons/AccountCircle";
+import VideoCallIcon from '@material-ui/icons/VideoCall';
 import MailIcon from "@material-ui/icons/Mail";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import MoreIcon from "@material-ui/icons/MoreVert";
-
+import  './Navbar.css'
 import header_logo from "../../Assets/header_logo.png";
 import retrex_logo from "../../Assets/retrex_logo.png";
+import Container from '@material-ui/core/Container';
 
 const useStyles = makeStyles((theme) => ({
   grow: {
@@ -70,6 +72,7 @@ const useStyles = makeStyles((theme) => ({
   },
   sectionDesktop: {
     display: "none",
+    paddingTop: '10px',
     [theme.breakpoints.up("md")]: {
       display: "flex",
     },
@@ -160,19 +163,19 @@ export default function Navbar() {
 
   return (
     <div className={classes.grow}>
-      <AppBar position="static" color="black">
+      <AppBar  position="static" >
         <Toolbar>
-          <img src={header_logo} width="100px" alt="" />
+          <img src={header_logo} width="120px" className='headerLogo' alt="" />
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
             <IconButton aria-label="show 4 new mails" color="inherit">
-              <Badge badgeContent={4} color="white">
-                <MailIcon />
+              <Badge badgeContent={5} color="white">
+                <VideoCallIcon style={{ color: 'white',fontSize:'30px' }} />
               </Badge>
             </IconButton>
             <IconButton aria-label="show 17 new notifications" color="inherit">
               <Badge badgeContent={17} color="white">
-                <NotificationsIcon />
+                <NotificationsIcon style={{ color: 'white',marginRight:'10px' }} />
               </Badge>
             </IconButton>
             <img src={retrex_logo} width="42px" height="42px" alt="" />
@@ -192,6 +195,10 @@ export default function Navbar() {
       </AppBar>
       {renderMobileMenu}
       {renderMenu}
+            
+
+        <hr className='lineWC' />
+  
     </div>
   );
 }
